@@ -1,5 +1,5 @@
 import 'package:appdev_final_exam/firebase_options.dart';
-import 'package:appdev_final_exam/pages/login.dart';
+import 'package:appdev_final_exam/pages/decision_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -15,8 +15,8 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: LoginPage(),
+    return const MaterialApp(
+      home: DecisionPage(),
       debugShowCheckedModeBanner: false,
     );
   }
